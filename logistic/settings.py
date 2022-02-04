@@ -34,7 +34,7 @@ SECRET_KEY = base64.b64decode(os.getenv('SECRET_KEY', default=base64.b64encode(g
 # DEBUG = os.getenv('DEBUG')
 
 # ALLOWED_HOSTS = base64.b64decode(os.environ.get('ALLOWED_HOSTS')).decode('ascii').split(' ')
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'cvrp-bandung.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.herokuapp.com']
 
 # GDAL_LIBRARY_PATH = r'C:\OSGeo4W\bin\gdal303'
 
