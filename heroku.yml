@@ -10,5 +10,5 @@ build:
 
 run:
   web: gunicorn logistic.wsgi:application --bind 0.0.0.0:$PORT --preload
-  worker : bundle exec sidekiq
+
   
