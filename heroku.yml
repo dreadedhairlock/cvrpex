@@ -9,4 +9,4 @@ build:
     # nginx: nginx/Dockerfile.dev
 
 run:
-  web: gunicorn logistic.wsgi:application --bind 0.0.0.0:$PORT
+  web: gunicorn logistic.wsgi:application --bind --preload 0.0.0.0:$PORT
