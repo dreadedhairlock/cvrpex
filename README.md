@@ -1,3 +1,3 @@
 "# cvrp" 
 
-Please kindly visit [here](cvrp-bandung.herokuapp.com) to see the result
+Please kindly visit [here](http://cvrp1.herokuapp.com) or copy this link http://cvrp1.herokuapp.com  to see the result
