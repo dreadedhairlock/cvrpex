@@ -25,5 +25,7 @@ RUN pip install -r requirements.txt
 
 COPY . /app
 
+EXPOSE 5000
+
 # collect static files
-RUN python manage.py collectstatic --noinput
+CMD ["python", "./manage.py"]
